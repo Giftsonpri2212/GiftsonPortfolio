@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&family=Source+Code+Pro:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --accent: #4305ba;
+  --bg: #f6f8fc;
+  --text: #0f172a;
+  --surface: #e7edf7;
+  --muted: #475569;
+}
+
+html.dark {
+  --bg: #0f172a;
+  --text: #f8fafc;
+  --surface: #1e293b;
+  --muted: #94a3b8;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  font-family: 'Source Code Pro', monospace;
+  background-color: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+  transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+html.light body {
+  background-image:
+    radial-gradient(circle at top left, rgba(250, 50, 5, 0.08), transparent 28%),
+    radial-gradient(circle at 85% 12%, rgba(83, 1, 197, 0.10), transparent 24%),
+    linear-gradient(180deg, #f8fafe 0%, #eef3fb 100%);
+}
+
+/* Light mode remaps for existing Tailwind utility usage in components */
+html.light .bg-slate-900 {
+  background-color: #f6f8fc !important;
+}
+
+html.light .bg-slate-900\/90 {
+  background-color: rgba(246, 248, 252, 0.9) !important;
+}
+
+html.light .bg-slate-900\/95 {
+  background-color: rgba(246, 248, 252, 0.95) !important;
+}
+
+html.light .bg-slate-800,
+html.light .bg-slate-800\/40,
+html.light .bg-slate-800\/50,
+html.light .bg-slate-800\/70 {
+  background-color: #e7edf7 !important;
+}
+
+html.light .text-slate-50,
+html.light .text-slate-100 {
+  color: #0f172a !important;
+}
+
+html.light .text-slate-300 {
+  color: #334155 !important;
+}
+
+html.light .text-slate-400 {
+  color: #475569 !important;
+}
+
+html.light .border-white\/10 {
+  border-color: rgba(30, 41, 59, 0.15) !important;
+}
+
+html.light .border-white\/20 {
+  border-color: rgba(30, 41, 59, 0.25) !important;
+}
+html.light .bg-slate-900\/85 {
+  background-color: rgba(246, 248, 252, 0.9) !important;
+}
+
+html.light .text-slate-200 {
+  color: #1e293b !important;
+}
+
+html.light .bg-white\/20 {
+  background-color: rgba(30, 41, 59, 0.15) !important;
+}
+#custom-logo {
+  font-family: 'Reenie Beanie', cursive;
+}
+
+/* Skill chip gradient border glow on hover */
+.skill-chip {
+  background-clip: padding-box;
+}
+
+html.dark .skill-icon {
+  filter: saturate(1.28) brightness(1.15);
+}
+
+html.light .skill-icon {
+  filter: saturate(1) brightness(1);
+}
+
+/* Cursor spotlight */
+.cursor-spotlight {
+  background: radial-gradient(600px circle at var(--x) var(--y), rgba(83, 1, 197, 0.07), transparent 50%);
+}
+
+html.light .cursor-spotlight {
+  background:
+    radial-gradient(520px circle at var(--x) var(--y), rgba(250, 50, 5, 0.08), transparent 42%),
+    radial-gradient(680px circle at var(--x) var(--y), rgba(83, 1, 197, 0.08), transparent 55%);
+}
+
+.tech-cloud-chip {
+  box-shadow: 0 20px 40px rgba(15, 23, 42, 0.18);
+}
+
+html.light .tech-cloud-chip {
+  background-color: rgba(255, 255, 255, 0.78) !important;
+  border-color: rgba(83, 1, 197, 0.12) !important;
+  box-shadow: 0 18px 32px rgba(71, 85, 105, 0.12);
+}
+
+.skill-chip:hover {
+  background: linear-gradient(#0f172a, #0f172a) padding-box,
+              linear-gradient(135deg, #fa3205, #5301c5) border-box;
+  border: 1px solid transparent;
+  box-shadow: 0 0 10px rgba(83, 1, 197, 0.35);
+}
+html.light .skill-chip:hover {
+  background: linear-gradient(#e7edf7, #e7edf7) padding-box,
+              linear-gradient(135deg, #fa3205, #5301c5) border-box;
+}

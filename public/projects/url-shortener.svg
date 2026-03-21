@@ -1,0 +1,82 @@
+<svg width="860" height="480" viewBox="0 0 860 480" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="860" height="480" fill="#060D1A"/>
+
+  <!-- Sidebar -->
+  <rect x="0" y="0" width="200" height="480" fill="#0F172A"/>
+  <rect x="20" y="28" width="110" height="20" rx="10" fill="#6366F1"/>
+  <rect x="20" y="74" width="140" height="14" rx="7" fill="#1E293B"/>
+  <rect x="20" y="100" width="140" height="14" rx="7" fill="#1E293B"/>
+  <rect x="20" y="126" width="140" height="14" rx="7" fill="#6366F1" fill-opacity="0.3"/>
+  <rect x="20" y="152" width="140" height="14" rx="7" fill="#1E293B"/>
+  <rect x="20" y="178" width="140" height="14" rx="7" fill="#1E293B"/>
+
+  <!-- Top bar -->
+  <rect x="200" y="0" width="660" height="56" fill="#0F172A"/>
+  <rect x="224" y="16" width="300" height="24" rx="10" fill="#1E293B"/>
+  <rect x="228" y="22" width="12" height="12" rx="6" fill="#6366F1"/>
+  <text x="248" y="32" fill="#475569" font-size="11" font-family="monospace">https://example.com/very-long-url...</text>
+  <rect x="748" y="14" width="90" height="28" rx="14" fill="#6366F1"/>
+  <text x="793" y="33" fill="white" text-anchor="middle" font-size="12" font-family="system-ui" font-weight="600">Shorten</text>
+
+  <!-- Stat cards row -->
+  <rect x="224" y="74" width="146" height="86" rx="14" fill="#1E293B"/>
+  <rect x="382" y="74" width="146" height="86" rx="14" fill="#1E293B"/>
+  <rect x="540" y="74" width="146" height="86" rx="14" fill="#1E293B"/>
+  <rect x="698" y="74" width="140" height="86" rx="14" fill="#1E293B"/>
+
+  <text x="244" y="100" fill="#94a3b8" font-size="10" font-family="system-ui">Total Links</text>
+  <text x="244" y="124" fill="#f8fafc" font-size="24" font-family="system-ui" font-weight="700">2,847</text>
+
+  <text x="402" y="100" fill="#94a3b8" font-size="10" font-family="system-ui">Total Clicks</text>
+  <text x="402" y="124" fill="#f8fafc" font-size="24" font-family="system-ui" font-weight="700">94.2K</text>
+
+  <text x="560" y="100" fill="#94a3b8" font-size="10" font-family="system-ui">Cache Hit Rate</text>
+  <text x="560" y="124" fill="#34d399" font-size="24" font-family="system-ui" font-weight="700">98.7%</text>
+
+  <text x="718" y="100" fill="#94a3b8" font-size="10" font-family="system-ui">Avg Latency</text>
+  <text x="718" y="124" fill="#a78bfa" font-size="24" font-family="system-ui" font-weight="700">12ms</text>
+
+  <!-- URL table -->
+  <rect x="224" y="176" width="614" height="36" rx="0" fill="#1E293B"/>
+  <text x="244" y="199" fill="#64748b" font-size="11" font-family="system-ui">Short URL</text>
+  <text x="440" y="199" fill="#64748b" font-size="11" font-family="system-ui">Original URL</text>
+  <text x="680" y="199" fill="#64748b" font-size="11" font-family="system-ui">Clicks</text>
+  <text x="754" y="199" fill="#64748b" font-size="11" font-family="system-ui">Status</text>
+
+  <!-- Rows -->
+  <rect x="224" y="212" width="614" height="40" rx="0" fill="#0F172A"/>
+  <text x="244" y="237" fill="#818cf8" font-size="11" font-family="monospace">lnk.io/ab3x</text>
+  <text x="440" y="237" fill="#cbd5e1" font-size="11" font-family="system-ui">github.com/giftson/tab-tracker</text>
+  <text x="688" y="237" fill="#f8fafc" font-size="11" font-family="system-ui">1,204</text>
+  <rect x="752" y="225" width="52" height="20" rx="10" fill="#34d399" fill-opacity="0.18"/>
+  <text x="778" y="239" text-anchor="middle" fill="#34d399" font-size="10">Active</text>
+
+  <rect x="224" y="252" width="614" height="40" rx="0" fill="#1E293B"/>
+  <text x="244" y="277" fill="#818cf8" font-size="11" font-family="monospace">lnk.io/zk9m</text>
+  <text x="440" y="277" fill="#cbd5e1" font-size="11" font-family="system-ui">medium.com/article/node-redis-queue</text>
+  <text x="688" y="277" fill="#f8fafc" font-size="11" font-family="system-ui">842</text>
+  <rect x="752" y="265" width="52" height="20" rx="10" fill="#34d399" fill-opacity="0.18"/>
+  <text x="778" y="279" text-anchor="middle" fill="#34d399" font-size="10">Active</text>
+
+  <rect x="224" y="292" width="614" height="40" rx="0" fill="#0F172A"/>
+  <text x="244" y="317" fill="#818cf8" font-size="11" font-family="monospace">lnk.io/p2wq</text>
+  <text x="440" y="317" fill="#cbd5e1" font-size="11" font-family="system-ui">leetcode.com/problemset/all</text>
+  <text x="688" y="317" fill="#f8fafc" font-size="11" font-family="system-ui">3,510</text>
+  <rect x="752" y="305" width="52" height="20" rx="10" fill="#34d399" fill-opacity="0.18"/>
+  <text x="778" y="319" text-anchor="middle" fill="#34d399" font-size="10">Active</text>
+
+  <!-- Bar chart area -->
+  <rect x="224" y="352" width="614" height="108" rx="14" fill="#1E293B"/>
+  <text x="244" y="374" fill="#94a3b8" font-size="11" font-family="system-ui">Clicks per day (last 7 days)</text>
+  <!-- Bars -->
+  <rect x="266" y="434" width="34" height="30" rx="4" fill="#6366F1" fill-opacity="0.6"/>
+  <rect x="318" y="414" width="34" height="50" rx="4" fill="#6366F1" fill-opacity="0.7"/>
+  <rect x="370" y="404" width="34" height="60" rx="4" fill="#6366F1" fill-opacity="0.8"/>
+  <rect x="422" y="394" width="34" height="70" rx="4" fill="#6366F1"/>
+  <rect x="474" y="388" width="34" height="76" rx="4" fill="#8B5CF6"/>
+  <rect x="526" y="408" width="34" height="56" rx="4" fill="#6366F1" fill-opacity="0.75"/>
+  <rect x="578" y="418" width="34" height="46" rx="4" fill="#6366F1" fill-opacity="0.65"/>
+  <rect x="630" y="398" width="34" height="66" rx="4" fill="#8B5CF6" fill-opacity="0.9"/>
+  <rect x="682" y="386" width="34" height="78" rx="4" fill="#6366F1"/>
+  <rect x="734" y="400" width="34" height="64" rx="4" fill="#6366F1" fill-opacity="0.7"/>
+</svg>

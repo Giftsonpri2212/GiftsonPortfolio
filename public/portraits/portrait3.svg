@@ -1,0 +1,17 @@
+<svg width="860" height="360" viewBox="0 0 860 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4305ba" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#7c3aed" stop-opacity="0.1"/>
+    </linearGradient>
+  </defs>
+  <rect width="860" height="360" fill="#0f172a"/>
+  <rect x="1" y="1" width="858" height="358" fill="none" stroke="#4305ba" stroke-opacity="0.25" stroke-width="1"/>
+  <rect width="860" height="360" fill="url(#g3)"/>
+
+  <!-- Decorative elements -->
+  <text x="100" y="50" fill="#4305ba" font-size="40" opacity="0.08" font-family="monospace">{ developer }</text>
+  <text x="400" y="200" fill="#4305ba" font-size="60" opacity="0.06" font-family="monospace">GP</text>
+
+  <text x="430" y="320" text-anchor="middle" fill="#4305ba" font-size="13" font-family="monospace">portrait3 — replace with a wide photo (landscape orientation works best)</text>
+</svg>

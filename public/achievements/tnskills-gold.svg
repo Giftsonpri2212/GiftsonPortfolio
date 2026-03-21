@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-label="TNSkills Gold Medal">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fde68a"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="700" fill="url(#bg)"/>
+  <circle cx="600" cy="340" r="150" fill="url(#gold)" stroke="#fbbf24" stroke-width="20"/>
+  <text x="600" y="355" text-anchor="middle" font-size="84" font-family="Arial, sans-serif" fill="#111827" font-weight="700">1</text>
+  <text x="600" y="130" text-anchor="middle" font-size="56" font-family="Arial, sans-serif" fill="#f8fafc" font-weight="700">TNSkills 2023</text>
+  <text x="600" y="610" text-anchor="middle" font-size="44" font-family="Arial, sans-serif" fill="#f8fafc">Gold Medal - Mechatronics</text>
+</svg>

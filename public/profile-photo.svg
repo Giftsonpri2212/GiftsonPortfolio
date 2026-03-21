@@ -1,0 +1,80 @@
+<svg width="480" height="560" viewBox="0 0 480 560" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="38%" r="60%">
+      <stop offset="0%" stop-color="#6366F1" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#0B1120" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="body" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4F46E5"/>
+      <stop offset="100%" stop-color="#7C3AED"/>
+    </linearGradient>
+    <linearGradient id="skin" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2e1065"/>
+      <stop offset="100%" stop-color="#1e1b4b"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="480" height="560" fill="#0A0F1E"/>
+  <rect width="480" height="560" fill="url(#glow)"/>
+
+  <!-- Dot grid -->
+  <g fill="#1e293b" opacity="0.7">
+    <circle cx="40" cy="40" r="1.5"/><circle cx="80" cy="40" r="1.5"/><circle cx="120" cy="40" r="1.5"/>
+    <circle cx="160" cy="40" r="1.5"/><circle cx="200" cy="40" r="1.5"/><circle cx="240" cy="40" r="1.5"/>
+    <circle cx="280" cy="40" r="1.5"/><circle cx="320" cy="40" r="1.5"/><circle cx="360" cy="40" r="1.5"/>
+    <circle cx="400" cy="40" r="1.5"/><circle cx="440" cy="40" r="1.5"/>
+    <circle cx="40" cy="80" r="1.5"/><circle cx="80" cy="80" r="1.5"/><circle cx="120" cy="80" r="1.5"/>
+    <circle cx="160" cy="80" r="1.5"/><circle cx="200" cy="80" r="1.5"/><circle cx="240" cy="80" r="1.5"/>
+    <circle cx="280" cy="80" r="1.5"/><circle cx="320" cy="80" r="1.5"/><circle cx="360" cy="80" r="1.5"/>
+    <circle cx="400" cy="80" r="1.5"/><circle cx="440" cy="80" r="1.5"/>
+  </g>
+
+  <!-- Shoulder/body base -->
+  <path d="M40 560 Q80 460 148 428 Q196 412 240 408 Q284 412 332 428 Q400 460 440 560Z" fill="url(#body)" opacity="0.85"/>
+
+  <!-- Neck -->
+  <rect x="218" y="288" width="44" height="50" rx="18" fill="url(#skin)"/>
+
+  <!-- Head -->
+  <ellipse cx="240" cy="220" rx="88" ry="95" fill="url(#body)"/>
+  <ellipse cx="240" cy="226" rx="74" ry="80" fill="#1a1440"/>
+
+  <!-- Hair -->
+  <path d="M155 214 Q162 130 240 126 Q318 130 325 214 Q300 196 240 198 Q180 196 155 214Z" fill="url(#body)"/>
+
+  <!-- Eyes -->
+  <ellipse cx="218" cy="208" rx="9" ry="10" fill="#0f172a"/>
+  <ellipse cx="262" cy="208" rx="9" ry="10" fill="#0f172a"/>
+  <circle cx="221" cy="206" r="3" fill="#818cf8"/>
+  <circle cx="265" cy="206" r="3" fill="#818cf8"/>
+
+  <!-- Eyebrows -->
+  <path d="M207 195 Q218 190 229 195" stroke="#6366f1" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <path d="M251 195 Q262 190 273 195" stroke="#6366f1" stroke-width="3" stroke-linecap="round" fill="none"/>
+
+  <!-- Smile -->
+  <path d="M222 232 Q240 249 258 232" stroke="#818cf8" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Ears -->
+  <ellipse cx="152" cy="222" rx="12" ry="16" fill="url(#body)"/>
+  <ellipse cx="328" cy="222" rx="12" ry="16" fill="url(#body)"/>
+
+  <!-- Code card bottom-left -->
+  <rect x="18" y="390" width="172" height="100" rx="14" fill="#0f172a" stroke="#6366f1" stroke-width="1.5" stroke-opacity="0.5"/>
+  <text x="32" y="413" fill="#818cf8" font-size="10" font-family="monospace">const dev = {</text>
+  <text x="32" y="430" fill="#a78bfa" font-size="10" font-family="monospace">  name: "Giftson",</text>
+  <text x="32" y="447" fill="#34d399" font-size="10" font-family="monospace">  rating: 1603,</text>
+  <text x="32" y="464" fill="#fbbf24" font-size="10" font-family="monospace">  medals: "Gold"</text>
+  <text x="32" y="481" fill="#818cf8" font-size="10" font-family="monospace">}</text>
+
+  <!-- Status badge -->
+  <rect x="296" y="420" width="158" height="36" rx="18" fill="#6366f1" fill-opacity="0.18" stroke="#6366f1" stroke-width="1.2" stroke-opacity="0.45"/>
+  <circle cx="318" cy="438" r="5" fill="#34d399"/>
+  <text x="332" y="443" fill="#a5b4fc" font-size="12" font-family="system-ui, sans-serif" font-weight="500">Available for Work</text>
+
+  <!-- Stars decoration -->
+  <text x="430" y="55" fill="#6366f1" font-size="18" opacity="0.6">✦</text>
+  <text x="32" y="55" fill="#8b5cf6" font-size="12" opacity="0.5">✦</text>
+  <text x="440" y="500" fill="#6366f1" font-size="10" opacity="0.4">✦</text>
+</svg>

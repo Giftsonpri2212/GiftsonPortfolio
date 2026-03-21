@@ -1,0 +1,47 @@
+<svg width="400" height="400" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#1e1b4b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </radialGradient>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4305ba"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#bg)"/>
+
+  <!-- Dot grid -->
+  <g fill="#1e293b">
+    <circle cx="30" cy="30" r="1.5"/><circle cx="70" cy="30" r="1.5"/><circle cx="110" cy="30" r="1.5"/><circle cx="150" cy="30" r="1.5"/>
+    <circle cx="190" cy="30" r="1.5"/><circle cx="230" cy="30" r="1.5"/><circle cx="270" cy="30" r="1.5"/><circle cx="310" cy="30" r="1.5"/>
+    <circle cx="350" cy="30" r="1.5"/><circle cx="390" cy="30" r="1.5"/>
+    <circle cx="30" cy="70" r="1.5"/><circle cx="70" cy="70" r="1.5"/><circle cx="110" cy="70" r="1.5"/><circle cx="150" cy="70" r="1.5"/>
+    <circle cx="190" cy="70" r="1.5"/><circle cx="230" cy="70" r="1.5"/><circle cx="270" cy="70" r="1.5"/><circle cx="310" cy="70" r="1.5"/>
+    <circle cx="350" cy="70" r="1.5"/><circle cx="390" cy="70" r="1.5"/>
+  </g>
+
+  <!-- Body -->
+  <path d="M30 400 Q60 330 110 305 Q155 288 200 285 Q245 288 290 305 Q340 330 370 400Z" fill="url(#grad)" opacity="0.75"/>
+  <!-- Neck -->
+  <rect x="183" y="215" width="34" height="42" rx="14" fill="#1e1b4b"/>
+  <!-- Head -->
+  <ellipse cx="200" cy="168" rx="70" ry="76" fill="url(#grad)"/>
+  <ellipse cx="200" cy="172" rx="58" ry="64" fill="#111827"/>
+  <!-- Hair -->
+  <path d="M132 162 Q138 100 200 97 Q262 100 268 162 Q245 146 200 148 Q155 146 132 162Z" fill="url(#grad)"/>
+  <!-- Eyes -->
+  <ellipse cx="182" cy="160" rx="7.5" ry="8.5" fill="#0a0820"/>
+  <ellipse cx="217" cy="160" rx="7.5" ry="8.5" fill="#0a0820"/>
+  <circle cx="184.5" cy="158" r="2.8" fill="#818cf8"/>
+  <circle cx="219.5" cy="158" r="2.8" fill="#818cf8"/>
+  <!-- Smile -->
+  <path d="M185 182 Q200 196 215 182" stroke="#818cf8" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <!-- Ears -->
+  <ellipse cx="129" cy="170" rx="10" ry="13" fill="url(#grad)"/>
+  <ellipse cx="271" cy="170" rx="10" ry="13" fill="url(#grad)"/>
+
+  <!-- Replace label -->
+  <rect x="60" y="340" width="280" height="44" rx="8" fill="#0f172a" fill-opacity="0.85"/>
+  <text x="200" y="367" text-anchor="middle" fill="#4305ba" font-size="12" font-family="monospace">→ Replace with your photo ←</text>
+</svg>
