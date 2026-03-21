@@ -27,7 +27,7 @@ export default function Achievements() {
         <div className="flex-grow border-t border-white/20" />
       </div>
 
-      <div className="grid gap-5 sm:grid-cols-2">
+      <div className="grid gap-5 sm:grid-cols-3">
         {achievements.map((item, index) => {
           const Icon = iconMap[item.icon];
           return (
