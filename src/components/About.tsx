@@ -91,8 +91,8 @@ export default function About() {
             {/* Photo3 - bottom right */}
             <div className="col-span-2 overflow-hidden rounded-lg shadow-lg h-[130px]">
               <AboutPhoto
-                src="/portraits/Photo3.png"
-                fallbackSrc="/portraits/Photo3.png"
+                src="/portraits/Photo3.jpg"
+                fallbackSrc="/portraits/Photo3.jpg"
                 alt="Giftson with teammates at IndiaSkills"
                 width={400}
                 height={130}

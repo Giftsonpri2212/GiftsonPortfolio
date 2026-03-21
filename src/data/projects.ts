@@ -24,7 +24,7 @@ export const projects: Project[] = [
     yearCompleted: "2024",
   },
   {
-    title: "TechnoSphere Blog",
+    title: "DevPort",
     description:
       "A full-stack MERN blogging platform for tech articles and interview prep, featuring rich-text authoring, category filters, comments, and an admin workflow for content management.",
     tech: ["React", "Node.js", "Express", "MongoDB"],
