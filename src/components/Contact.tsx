@@ -5,9 +5,9 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";
 
 const socials = [
-  { href: "https://github.com/giftsonprince", Icon: FaGithub, label: "GitHub" },
-  { href: "https://linkedin.com", Icon: FaLinkedin, label: "LinkedIn" },
-  { href: "https://leetcode.com/giftsonprince", Icon: SiLeetcode, label: "LeetCode" },
+  { href: "https://github.com/Giftsonpri2212", Icon: FaGithub, label: "GitHub" },
+  { href: "https://www.linkedin.com/in/giftson-prince-p-6a6684230/", Icon: FaLinkedin, label: "LinkedIn" },
+  { href: "https://leetcode.com/u/giftsonprince2212/", Icon: SiLeetcode, label: "LeetCode" },
 ];
 
 export default function Contact() {
@@ -34,7 +34,7 @@ export default function Contact() {
         </p>
 
         <div className="mt-8">
-          <a href="mailto:giftson@example.com">
+          <a href="mailto:giftsonprincep2212@gmail.com">
             <button className="py-2 px-6 bg-transparent border border-btn shadow-sm shadow-btn text-btn transition ease-in-out hover:bg-btn hover:text-white focus:bg-btn focus:text-white active:bg-btn active:text-white duration-300">
               Send an Email
             </button>

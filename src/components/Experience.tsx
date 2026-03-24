@@ -16,13 +16,14 @@ const experiences = [
     ],
   },
   {
-    role: "Mechatronics Competitor",
-    org: "IndiaSkills",
+    role: "Autonomous Mobile Robotics Competitor",
+    org: "IndiaSkills & TNSkills",
     period: "2023",
     summary:
-      "Represented project work in a national competition context and shipped stable prototypes under time constraints.",
+      "Represented project work in IndiaSkills and TNSkills competition contexts, including ML-driven robotics features, and shipped stable prototypes under time constraints.",
     points: [
       "Executed team-based build iterations with strict performance checkpoints.",
+      "Worked on machine learning-assisted object detection and decision support in robotics workflows.",
       "Focused on reliability tuning, test cycles, and quick defect resolution.",
       "Delivered functional outcomes that supported medal-winning performance.",
     ],

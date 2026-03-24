@@ -22,9 +22,9 @@ export default function Projects() {
         <h1 className="text-3xl font-bold pr-5">Projects</h1>
         <div className="flex-grow border-t border-white/20" />
         <a
-          href="https://github.com/giftsonprince?tab=repositories"
+          href="https://github.com/Giftsonpri2212?tab=repositories"
           target="_blank"
-          rel="noreferrer"
+          rel="noopener noreferrer"
           className="pl-5 text-sm text-slate-400 hover:text-link transition-colors"
         >
           Visit Archive

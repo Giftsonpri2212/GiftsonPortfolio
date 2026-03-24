@@ -7,13 +7,13 @@ const profiles = [
   {
     title: "LeetCode",
     subtitle: "400+ problems solved",
-    href: "https://leetcode.com",
+    href: "https://leetcode.com/u/giftsonprince2212/",
     icon: FaCode,
   },
   {
     title: "GitHub",
     subtitle: "Projects and repositories",
-    href: "https://github.com/giftsonprince",
+    href: "https://github.com/Giftsonpri2212",
     icon: FaGithub,
   },
   {

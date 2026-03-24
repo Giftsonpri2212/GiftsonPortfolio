@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { SiLeetcode } from "react-icons/si";
 import TechCloud from "@/components/TechCloud";
 
 const roles = ["Full Stack Developer", "Coder", "Backend Engineer"];
@@ -90,17 +89,6 @@ export default function Hero({ showTransition }: { showTransition: boolean }) {
           style={{ transitionDelay: "200ms" }}
         >
           <TechCloud />
-          <a
-            href="https://leetcode.com/giftsonprince"
-            target="_blank"
-            rel="noreferrer"
-            className="absolute -right-2 bottom-0 border border-white/20 bg-slate-900/85 px-3 py-2 text-xs text-slate-200 backdrop-blur-sm hover:border-btn"
-          >
-            <span className="inline-flex items-center gap-2">
-              <SiLeetcode className="h-3.5 w-3.5" />
-              LeetCode: 400+ solved
-            </span>
-          </a>
         </div>
 
       </div>

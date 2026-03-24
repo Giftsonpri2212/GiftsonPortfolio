@@ -17,10 +17,10 @@ import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";
 
 const socialLinks = [
-  { href: "https://github.com/giftsonprince", Icon: FaGithub, label: "GitHub" },
-  { href: "https://linkedin.com", Icon: FaLinkedin, label: "LinkedIn" },
-  { href: "https://leetcode.com/giftsonprince", Icon: SiLeetcode, label: "LeetCode" },
-  { href: "mailto:giftson@example.com", Icon: FaEnvelope, label: "Email" },
+  { href: "https://github.com/Giftsonpri2212", Icon: FaGithub, label: "GitHub" },
+  { href: "https://www.linkedin.com/in/giftson-prince-p-6a6684230/", Icon: FaLinkedin, label: "LinkedIn" },
+  { href: "https://leetcode.com/u/giftsonprince2212/", Icon: SiLeetcode, label: "LeetCode" },
+  { href: "mailto:giftsonprincep2212@gmail.com", Icon: FaEnvelope, label: "Email" },
 ];
 
 export default function Home() {

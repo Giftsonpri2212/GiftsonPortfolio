@@ -12,48 +12,48 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    title: "Tab Tracker",
+    title: "AlgoPulse AI",
     description:
       "A developer analytics platform that tracks coding activity across LeetCode, CodeChef, and HackerRank, with dashboards for streaks, difficulty-wise progress, and solved-problem trends.",
     tech: ["React", "Node.js", "MongoDB", "Chart.js"],
-    githubUrl: "https://github.com",
+    githubUrl: "https://github.com/Giftsonpri2212",
     liveUrl: "https://example.com",
-    image: "/Tabtracker.png",
+    image: "/projects/Algopulse.png",
     featured: true,
     alignLeft: false,
-    yearCompleted: "2024",
+    yearCompleted: "2026",
   },
   {
     title: "DevPort",
     description:
       "A full-stack MERN blogging platform for tech articles and interview prep, featuring rich-text authoring, category filters, comments, and an admin workflow for content management.",
     tech: ["React", "Node.js", "Express", "MongoDB"],
-    githubUrl: "https://github.com",
+    githubUrl: "https://github.com/Giftsonpri2212",
     liveUrl: "https://example.com",
-    image: "/projects/blog-platform.svg",
+    image: "/projects/devport.png",
     alignLeft: true,
-    yearCompleted: "2024",
+    yearCompleted: "2025",
   },
   {
     title: "Scalable URL Shortener",
     description:
       "A high-throughput URL shortener service with click analytics, built using Redis caching and BullMQ queues, with support for custom aliases, expiry, and rate-limited REST APIs.",
     tech: ["Node.js", "PostgreSQL", "Redis", "BullMQ"],
-    githubUrl: "https://github.com",
+    githubUrl: "https://github.com/Giftsonpri2212",
     liveUrl: "https://example.com",
-    image: "/projects/url-shortener.svg",
+    image: "/projects/url.png",
     alignLeft: false,
-    yearCompleted: "2024",
+    yearCompleted: "2025",
   },
   {
     title: "ML Autonomous Robot",
     description:
       "An autonomous pick-and-place robot using ML-based object recognition and OpenCV vision for real-time detection, built for IndiaSkills mechatronics workflows under competition constraints.",
-    tech: ["TensorFlow", "OpenCV", "JavaScript"],
-    githubUrl: "https://github.com",
+    tech: ["TensorFlow", "OpenCV", "JavaScript", "Arduino"],
+    githubUrl: "https://github.com/Giftsonpri2212",
     liveUrl: "https://example.com",
-    image: "/projects/ml-robot.svg",
+    image: "/projects/robot2.png",
     alignLeft: true,
-    yearCompleted: "2023",
+    yearCompleted: "2024",
   },
 ];
