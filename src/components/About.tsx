@@ -47,18 +47,50 @@ export default function About() {
       </div>
 
       {/* Content grid */}
-      <div className="flex flex-col gap-y-4 xl:grid xl:grid-cols-2 xl:gap-x-5 xl:gap-y-0 mb-36 text-slate-300">
+      <div className="flex flex-col gap-y-4 xl:grid xl:grid-cols-2 xl:gap-x-5 xl:gap-y-0 mb-20 text-slate-300">
 
         {/* Text + checklist (left) */}
-        <div className="order-2 xl:order-none space-y-4">
-          <p className="text-justify">
-            {"I'm a Full Stack Developer from Tamil Nadu who enjoys building practical, "
-            + "reliable products. I focus on backend systems, full-stack web apps, and tools "
-            + "that make workflows faster and easier."}
+        <div className="order-2 xl:order-none space-y-4 text-[0.98rem] sm:text-base">
+          <p className="text-justify text-sm sm:text-base font-semibold dark:font-medium leading-relaxed text-slate-100">
+            Hi, I&apos;m{" "}
+            <span className="font-semibold text-slate-100 dark:text-white">
+              Giftson Prince
+            </span>
+            , a developer passionate about building
+            <span className="font-semibold text-slate-100 dark:text-white">
+              {" scalable and impactful applications."}
+            </span>
           </p>
-          <p className="text-justify">
-            {"I also have a mechatronics background and have competed at state and national "
-            + "levels, which helped me develop strong problem-solving and execution under deadlines."}
+
+          <div className="flex flex-wrap gap-2 text-[11px] font-semibold dark:font-medium">
+            <span className="about-skill-chip px-2.5 py-1 rounded-full border-2 border-slate-900 bg-slate-400 ring-1 ring-slate-700/40 shadow-md shadow-slate-700/45 dark:border-btn/40 dark:bg-btn/10 dark:shadow-btn/20 transition-all duration-300 hover:-translate-y-0.5 hover:bg-slate-500 hover:border-slate-950 dark:hover:bg-btn/20 dark:hover:border-btn/70">
+              Frontend Development
+            </span>
+            <span className="about-skill-chip px-2.5 py-1 rounded-full border-2 border-cyan-900 bg-cyan-500 ring-1 ring-cyan-700/40 shadow-md shadow-cyan-700/45 dark:border-cyan-400/30 dark:bg-cyan-400/10 dark:shadow-cyan-400/20 transition-all duration-300 hover:-translate-y-0.5 hover:bg-cyan-600 hover:border-cyan-950 dark:hover:bg-cyan-400/20 dark:hover:border-cyan-400/60">
+              System Design
+            </span>
+            <span className="about-skill-chip px-2.5 py-1 rounded-full border-2 border-emerald-900 bg-emerald-500 ring-1 ring-emerald-700/40 shadow-md shadow-emerald-700/45 dark:border-emerald-400/30 dark:bg-emerald-400/10 dark:shadow-emerald-400/20 transition-all duration-300 hover:-translate-y-0.5 hover:bg-emerald-600 hover:border-emerald-950 dark:hover:bg-emerald-400/20 dark:hover:border-emerald-400/60">
+              Backend Scalability
+            </span>
+            <span className="about-skill-chip px-2.5 py-1 rounded-full border-2 border-amber-900 bg-amber-500 ring-1 ring-amber-700/40 shadow-md shadow-amber-700/45 dark:border-amber-300/30 dark:bg-amber-300/10 dark:shadow-amber-300/20 transition-all duration-300 hover:-translate-y-0.5 hover:bg-amber-600 hover:border-amber-950 dark:hover:bg-amber-300/20 dark:hover:border-amber-300/60">
+              Problem Solving
+            </span>
+          </div>
+
+          <p className="text-justify font-medium dark:font-normal">
+            {"I work across modern web technologies and enjoy exploring system design through projects "
+            + "like URL shorteners and backend systems that handle real-world scale. I'm also interested "
+            + "in deep learning and intelligent systems."}
+          </p>
+          <p className="text-justify font-medium dark:font-normal">
+            {"I have participated in IndiaSkills and TNSkills competitions, where I worked on real-world "
+            + "problem scenarios and strengthened my ability to solve problems under pressure."}
+          </p>
+          <p className="text-justify font-medium dark:font-normal">
+            {"I enjoy working both independently and in team environments, and I continuously gain practical "
+            + "experience through projects, hackathons, and coding challenges. I am always curious to learn "
+            + "new technologies, build meaningful solutions, and grow as a developer with the goal of "
+            + "contributing to innovative and high-impact products."}
           </p>
         </div>
 

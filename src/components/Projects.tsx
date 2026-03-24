@@ -7,7 +7,7 @@ import { projects } from "@/data/projects";
 
 export default function Projects() {
   const [showAll, setShowAll] = useState(false);
-  const visibleProjects = showAll ? projects : projects.slice(0, 2);
+  const visibleProjects = showAll ? projects : projects.slice(0, 3);
 
   return (
     <motion.section
