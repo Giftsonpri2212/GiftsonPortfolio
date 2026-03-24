@@ -18,7 +18,7 @@ export const projects: Project[] = [
     tech: ["React", "Node.js", "MongoDB", "Chart.js"],
     githubUrl: "https://github.com/Giftsonpri2212",
     liveUrl: "https://example.com",
-    image: "/projects/Algopulse.png",
+    image: "/projects/Algopulse2.png",
     featured: true,
     alignLeft: true,
     yearCompleted: "2026",
