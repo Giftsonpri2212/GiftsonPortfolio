@@ -34,7 +34,7 @@ export default function About() {
   return (
     <motion.section
       id="about"
-      className="min-h-screen w-full"
+      className="min-h-screen w-full pb-24"
       initial={{ opacity: 0, y: 16, filter: "blur(4px)" }}
       whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
       viewport={{ once: true, amount: 0.1 }}
