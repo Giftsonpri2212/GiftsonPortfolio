@@ -17,7 +17,7 @@ export const achievements: Achievement[] = [
     title: "IndiaSkills Bronze Medal",
     description:
       "National robotics competition organized by Government of India.",
-    image: "/achievements/indiaskills Bronze.png",
+    image: "/achievements/Indiaskills Bronze.png",
   },
   {
     icon: "hackathon",
