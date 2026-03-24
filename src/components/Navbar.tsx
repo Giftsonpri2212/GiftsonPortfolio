@@ -136,7 +136,7 @@ export default function Navbar({ showTransition }: { showTransition: boolean }) 
               className={`transition-all duration-500 ${showTransition ? "translate-y-0 opacity-100" : "-translate-y-4 opacity-0"}`}
               style={{ transitionDelay: "380ms" }}
             >
-              <a href="/resume.pdf" target="_blank" rel="noreferrer">
+              <a href="/Giftson_Prince_Resume.pdf" target="_blank" rel="noreferrer">
                 <button className="py-2 px-6 bg-transparent border border-btn shadow-sm shadow-btn text-btn transition ease-in-out hover:bg-btn hover:text-white focus:bg-btn focus:text-white active:bg-btn active:text-white duration-300 text-base">
                   Resume
                 </button>
@@ -177,7 +177,7 @@ export default function Navbar({ showTransition }: { showTransition: boolean }) 
               </button>
             </li>
             <li>
-              <a href="/resume.pdf" target="_blank" rel="noreferrer">
+              <a href="/Giftson_Prince_Resume.pdf" target="_blank" rel="noreferrer">
                 <button className="block w-full text-center py-2 px-6 mt-5 bg-transparent border border-btn shadow-sm shadow-btn text-btn transition ease-in-out hover:bg-btn hover:text-white focus:bg-btn focus:text-white active:bg-btn active:text-white duration-300">
                   Resume
                 </button>
